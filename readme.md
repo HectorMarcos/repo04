@@ -2,7 +2,7 @@
 
 ## NoFastForwardTest
 
-´´´
+```
 mkdir repo04
 cd repo04
 touch readme.md
@@ -12,8 +12,9 @@ git commit -m "first commit"
 git remote add origin https://github.com/HectorMarcos/repo04.git
 git branch -M main
 git push -u origin main
-´´´
-´´´
+```
+
+```
 git branch "noFFTest"
 git checkout noFFTest
 code .
@@ -23,4 +24,4 @@ git checkout main
 git merge --no-ff noFFTest
 git push origin main
 
-´´´
+```
